@@ -867,7 +867,7 @@ section,
   padding: 60px 30px;
   text-align: center;
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 22px;
 }
 
 .services .service-item .icon {
@@ -1120,6 +1120,7 @@ section,
   color: var(--default-color);
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  border-radius: 20px;
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -1456,4 +1457,8 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.img-fluid{
+  border-radius: 20px;
 }
